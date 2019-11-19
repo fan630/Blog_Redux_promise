@@ -5,7 +5,7 @@ import './App.css';
 import Nav from './container/navTabContainer'
 import Footer from './components/footer/footer.js'
 import Share from './container/shareContainer'
-import Home from './components/home'
+import Home from './container/HomeContainer'
 import Edit from './container/editContainer.js'
 import PostList from './container/postListContainer'
 import Post from './container/postContainer'
@@ -30,7 +30,7 @@ class App extends Component {
       <Router>
         <div className="app">
           <Nav />
-          <Footer />
+          {/* <Footer /> */}
           <div className="page">
             <Route exact path="/" component={Home} />
             <Route path="/share" component={Share} />
