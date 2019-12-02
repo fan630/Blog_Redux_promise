@@ -32,22 +32,29 @@ const Nav = ({ updateTab }) => {
         color: "black"
     }
     return (
-        <nav className="nav">
-            <button className="nav__item" ><b>Blog</b></button>
-            <ItemNav to="/" exact={true} updateTab={updateTab}>
-                <FontAwesome
-                    name='fas fa-home'
-                    style={{ style }}
-                />
-                <span>Home</span>
-            </ItemNav>
-            <ItemNav to="/post" updateTab={updateTab}>
-                Post
-                </ItemNav>
-            <ItemNav to="/share" updateTab={updateTab}>
-                <FaMarkdown style={{ fontSize: "25px"}} />
-                Share
-                </ItemNav>
+        <nav className="nav navbar-expand-lg navbar-dark">
+            <button className="nav__item navbar-brand" href="#"><b>Blog</b></button>
+            <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarColor02">
+                <ul className="navbar-nav mr-auto">
+                    <ItemNav to="/" exact={true} updateTab={updateTab}>
+                        <FontAwesome
+                            name='fas fa-home'
+                            style={{ style }}
+                        />
+                        <span>Home</span>
+                    </ItemNav>
+                    <ItemNav to="/post" updateTab={updateTab}>
+                        Post
+                    </ItemNav>
+                    <ItemNav to="/share" updateTab={updateTab}>
+                     <FaMarkdown style={{ fontSize: "25px"}} />
+                     Share
+                 </ItemNav>
+                </ul>
+            </div>
         </nav>
     )
 }

@@ -17,8 +17,6 @@ const reducers = combineReducers({
 // const store = createStore(reducers, applyMiddleware(thunk))
 
 const store = createStore(reducers, applyMiddleware(logger, promiseMiddleware))
-// action => funA => funcA(dispatch)
-
 
 ReactDOM.render(
     <Provider store={store}>
