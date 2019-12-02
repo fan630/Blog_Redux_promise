@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Blog_Redux_promise/static/css/main.e8ec925c.chunk.css",
-    "main.js": "/Blog_Redux_promise/static/js/main.cef1b80f.chunk.js",
-    "main.js.map": "/Blog_Redux_promise/static/js/main.cef1b80f.chunk.js.map",
+    "main.css": "/Blog_Redux_promise/static/css/main.0a627803.chunk.css",
+    "main.js": "/Blog_Redux_promise/static/js/main.4116f2e8.chunk.js",
+    "main.js.map": "/Blog_Redux_promise/static/js/main.4116f2e8.chunk.js.map",
     "runtime-main.js": "/Blog_Redux_promise/static/js/runtime-main.1fb745fc.js",
     "runtime-main.js.map": "/Blog_Redux_promise/static/js/runtime-main.1fb745fc.js.map",
     "static/js/2.366a5cb4.chunk.js": "/Blog_Redux_promise/static/js/2.366a5cb4.chunk.js",
     "static/js/2.366a5cb4.chunk.js.map": "/Blog_Redux_promise/static/js/2.366a5cb4.chunk.js.map",
     "index.html": "/Blog_Redux_promise/index.html",
-    "precache-manifest.be9c5f50650b1fed8b37224f57bc6817.js": "/Blog_Redux_promise/precache-manifest.be9c5f50650b1fed8b37224f57bc6817.js",
+    "precache-manifest.3c46fe80d48dd4a72526f554d30f2816.js": "/Blog_Redux_promise/precache-manifest.3c46fe80d48dd4a72526f554d30f2816.js",
     "service-worker.js": "/Blog_Redux_promise/service-worker.js",
-    "static/css/main.e8ec925c.chunk.css.map": "/Blog_Redux_promise/static/css/main.e8ec925c.chunk.css.map"
+    "static/css/main.0a627803.chunk.css.map": "/Blog_Redux_promise/static/css/main.0a627803.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.1fb745fc.js",
     "static/js/2.366a5cb4.chunk.js",
-    "static/css/main.e8ec925c.chunk.css",
-    "static/js/main.cef1b80f.chunk.js"
+    "static/css/main.0a627803.chunk.css",
+    "static/js/main.4116f2e8.chunk.js"
   ]
 }
