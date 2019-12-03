@@ -46,3 +46,7 @@ button > b {
 .fa {
     color:rgba(0,0,0,0.5)
 }
+
+.navbar-toggler{
+    color:black;
+}

@@ -1,4 +1,7 @@
+
+
 .col{
+    display: flex;
     margin: 0 1px;
     width: 25%;
     display: inline;
@@ -8,7 +11,7 @@
     overflow:hidden;
 }
 
-.pic > a{
+.pic  a{
     text-decoration: none;
 }
 

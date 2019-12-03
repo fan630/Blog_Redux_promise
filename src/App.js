@@ -30,7 +30,7 @@ class App extends Component {
       <Router>
         <div className="app">
           <Nav />
-          <Footer />
+          {/* <Footer /> */}
           <div className="page">
             <Route exact path="/" component={Home} />
             <Route path="/share" component={Share} />
