@@ -1,22 +1,18 @@
-
-
-.col{
+.wrapper2{
     display: flex;
-    margin: 0 1px;
-    width: 25%;
-    display: inline;
+    flex-wrap: wrap;
 }
 
-.pic{
-    overflow:hidden;
-}
-
-.pic  a{
-    text-decoration: none;
+.row{
+    margin-left: 64px;
+    /* display: flex;
+    text-align: center; */
 }
 
 .pic img{
-    border: 1px solid;
+    margin-right: 40px;
+    width: 200px;
+    height: 150px;
     transform:scale(1,1);
     transition: all 1s ease-out;
 }

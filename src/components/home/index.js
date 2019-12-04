@@ -23,14 +23,14 @@ class Home extends Component {
     render() {
         const { isLoadingGetUnsplashPosts, UnsplashPosts } = this.props
         const template =(
-            <div className="wrapper">
+            <div className="wrapper2">
+                <div className="row">
                 {UnsplashPosts.map(UnsplashPost =>
-                    <div className="row">
-                        <div className="col">
-                            <Img src={UnsplashPost.urls.small} desc={UnsplashPost.alt_description} link={UnsplashPost.links.html}/>
+                        <div className="box">
+                            <Img src={UnsplashPost.urls.thumb}  link={UnsplashPost.links.html}/>
                             </div>
-                    </div>
                 )}
+                </div>
             </div>
         )
         const loading = (
@@ -40,7 +40,7 @@ class Home extends Component {
         )
         return (
             <div>
-                <h1>Welcome</h1>
+                {/* <h1>Welcome</h1> */}
                 {isLoadingGetUnsplashPosts ? loading : template}
             </div>
         )

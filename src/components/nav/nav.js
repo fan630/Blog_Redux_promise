@@ -39,20 +39,26 @@ const Nav = ({ updateTab }) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarColor02">
                 <ul className="navbar-nav mr-auto">
-                    <ItemNav to="/" exact={true} updateTab={updateTab}>
+                    <li className="nav-item">
+                        <ItemNav className="nav-link" to="/" exact={true} updateTab={updateTab}>
                         <FontAwesome
                             name='fas fa-home'
                             style={{ style }}
                         />
                         <span>Home</span>
                     </ItemNav>
-                    <ItemNav to="/post" updateTab={updateTab}>
+                    </li>
+                    <li className="nav-item">
+                        <ItemNav className="nav-link" to="/post" updateTab={updateTab}>
                         Post
                     </ItemNav>
-                    <ItemNav to="/share" updateTab={updateTab}>
-                     <FaMarkdown style={{ fontSize: "25px"}} />
-                     Share
-                 </ItemNav>
+                    </li>
+                    <li className="nav-item">
+                        <ItemNav className="nav-link" to="/share" updateTab={updateTab}>
+                            <FaMarkdown style={{ fontSize: "25px" }} />
+                            Share
+                        </ItemNav>
+                    </li>
                 </ul>
             </div>
         </nav>
