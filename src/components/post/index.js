@@ -18,7 +18,7 @@ class Item extends Component {
                         <span>Id</span>
                         <div>{post.id}</div>
                         <span>Author</span>
-                        <div>{post.author ? <ReactMarkdown source={post.author} />: '作者不詳'}</div>
+                        <div className="author">{post.author ? <ReactMarkdown source={post.author} />: '作者不詳'}</div>
                         <span>Title</span>
                         <div><ReactMarkdown source={post.title} /></div>
                         <span>Created Time</span>

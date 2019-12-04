@@ -4,13 +4,11 @@
 }
 
 .row{
-    margin-left: 64px;
-    /* display: flex;
-    text-align: center; */
+    margin-left: 50px;
 }
 
 .pic img{
-    margin-right: 40px;
+    margin-right: 15px;
     width: 200px;
     height: 150px;
     transform:scale(1,1);
@@ -19,4 +17,14 @@
 
 .pic img:hover{
     transform:scale(1.2,1.2);
+}
+
+ @media (max-width: 550px){
+       .wrapper2{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .box{
+            margin: 0 auto;
+        }
 }

@@ -3,7 +3,7 @@
             width: 100%;
             padding: 0 10px;
             position: relative;
-     }
+        }  
 }
 
 .wrapper{
@@ -72,4 +72,8 @@ span{
     position: absolute;
     top:-9px;
     right:80px;
+}
+
+.author{
+    word-break:break-all;
 }
