@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Blog_Redux_promise/static/css/main.46a1e466.chunk.css",
+    "main.css": "/Blog_Redux_promise/static/css/main.d5675524.chunk.css",
     "main.js": "/Blog_Redux_promise/static/js/main.f8526f8c.chunk.js",
     "main.js.map": "/Blog_Redux_promise/static/js/main.f8526f8c.chunk.js.map",
     "runtime-main.js": "/Blog_Redux_promise/static/js/runtime-main.1fb745fc.js",
@@ -8,14 +8,14 @@
     "static/js/2.27418da5.chunk.js": "/Blog_Redux_promise/static/js/2.27418da5.chunk.js",
     "static/js/2.27418da5.chunk.js.map": "/Blog_Redux_promise/static/js/2.27418da5.chunk.js.map",
     "index.html": "/Blog_Redux_promise/index.html",
-    "precache-manifest.b3bb258583e5954b8c4cde5cf1083d05.js": "/Blog_Redux_promise/precache-manifest.b3bb258583e5954b8c4cde5cf1083d05.js",
+    "precache-manifest.df45082a6954b5492527139fd6a7a9f2.js": "/Blog_Redux_promise/precache-manifest.df45082a6954b5492527139fd6a7a9f2.js",
     "service-worker.js": "/Blog_Redux_promise/service-worker.js",
-    "static/css/main.46a1e466.chunk.css.map": "/Blog_Redux_promise/static/css/main.46a1e466.chunk.css.map"
+    "static/css/main.d5675524.chunk.css.map": "/Blog_Redux_promise/static/css/main.d5675524.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.1fb745fc.js",
     "static/js/2.27418da5.chunk.js",
-    "static/css/main.46a1e466.chunk.css",
+    "static/css/main.d5675524.chunk.css",
     "static/js/main.f8526f8c.chunk.js"
   ]
 }
