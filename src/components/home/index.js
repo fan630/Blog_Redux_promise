@@ -7,7 +7,7 @@ const Img = ({ src, desc, link }) => {
     return (
         <div className="pic">
             <a href={link} target="_blank">
-                <img className="img-fluid" alt="Responsive image" src={src} alt=""/>
+                <img src={src} alt=""/>
             </a>
             <p>{desc}</p>
         </div>
